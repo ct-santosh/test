@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.head {
+    display: flex;
+    padding-left: 50px;
+    margin-top:30px;
+    background-color: #EBCBBC;
+    border:0px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+.i{
+    width:30%;
+    background: #6C9A9A;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+#i{
+  height:90%;
+  width:60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+    }
+    img{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 25%;
+    }
+.name {
+  padding-top: 1%;
+  font-family: Garamond, serif;
+  background-color: #EBCBBC;
+  padding-left:35px;
+  text-align: Left;
+  font-size: 35px;
+  color: black;
+  height: 200px;
+}
+.body {
+  display: flex;
+}
+.left{
+  box-sizing: border-box;
+  background: #6C9A9A;
+  width: 30%;
+  margin-left: 50px;
+  display:flex;
+  flex-direction: column;
+  padding:50px 20px 0px 20px;
+  text-align: justify;  
+  line-height: 2;
+  color: white;
+}
+.right {
+  background-color: #f1f1f1;
+  width:70%;
+  padding:50px 20px 50px 90px;
+  
+}
+h2{
+  margin-bottom: 5px;
+}
+h3{
+  margin-bottom: 0%;
+  margin: 0%;
+  padding: 0%;
+}
+p{
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+@media (max-width: 790px) {
+  .body {
+    display:flex; 
+    flex-direction: column;
+    
+  }
+  .left{
+    background: #ccc;
+    width:100%;
+    margin:0;
+    order: 2;
+    color:black;
+  }
+  .right{
+    width:100%;
+    margin:0;
+    padding-left:15px;
+    order:1;
+  background-color: #f1f1f1;
+  }
+  .i{
+    margin: 0%;
+    padding: 1%;
+    padding-top: 2%;
+    background: #6C9A9A;
+    
+
+  }
+  .name{
+    background-color: #666;
+    background: #6C9A9A;
+  }
+  .head{
+    background: #6C9A9A;
+  }
+}
+
+@media (max-width: 570px) {
+  .head{
+display: flex;
+flex-direction: column;
+padding:30px;
+  }
+.name{
+  padding-left: 0px;
+  margin-bottom: 0;
+}
+#name{
+  margin-top: 0%;
+}
+.i{
+  height: 250px;
+  width:250px;
+  padding: 0px;
+  text-align: center;
+}
+img{
+  height:1opx;
+  width: 130px;
+}
+
+}
